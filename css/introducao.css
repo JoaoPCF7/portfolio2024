@@ -32,6 +32,15 @@
   color: #525252;
 }
 
+.introducao img:hover {
+  transform: scale(1.1);
+}
+
+.introducao img {
+  background: blueviolet;
+  margin: 10px auto;
+  transition: 400ms linear;
+}
 @media (max-width: 1000px) {
   .introducao h1 {
     font-size: 3rem;
